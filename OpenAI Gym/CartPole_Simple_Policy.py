@@ -15,7 +15,6 @@ more than 68 consecutive steps. Not great!
 import gym
 import numpy as np
 import tensorflow as tf
-from tensorflow.contrib.layers import fully_connected
 
 env = gym.make('CartPole-v0')
 obs = env.reset()
